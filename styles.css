@@ -243,10 +243,20 @@
 }
 
 .highlight{
-    border-button: 4px solid  rgb(132, 0,255)
+    border-button: 4px solid  #a8e063(132, 0,255)
 }
 
- 
+@media screen and (max-width: 768px){
+    .hero__heading{
+        font-size:60ox;
+    }
+
+    .hero__description {
+        font-size: 40px;
+    }
+} 
+
+
 
 
 
