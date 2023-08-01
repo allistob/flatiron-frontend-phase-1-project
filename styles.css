@@ -70,7 +70,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
-    width: 100%
+    width: 100%;
 }
 
 
@@ -176,7 +176,7 @@
 
     .navbar__toggle .bar{
         display:block;
-        cursor: pointer
+        cursor: pointer;
     }
 
     #mobile-menu.is-active .bar:nth-child(2) {
@@ -215,7 +215,7 @@
 .hero__heading{
     font-size: 100px;
     margin-bottom: 24px;
-    color: #fff
+    color: #fff;
 }
 
 .hero___heading span{
@@ -242,7 +242,7 @@
 }
 
 .highlight{
-    border-buttom: 4px solid  #a8e063(132, 0,255)
+    border-bottom: 4px solid  #a8e063(132, 0,255);
 }
 
 @media screen and (max-width: 768px){
@@ -353,10 +353,7 @@ color: #fff;
     text-align: center;
 }
 
-.main__img--container {
-    text-align: center;
-}
-.main__img--card {
+.main__image--card {
     margin: 10px;
     height: 500px;
     width: 500px;
@@ -365,13 +362,18 @@ color: #fff;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #A4F7B6 0%, #30FA5C 100%);
   }
 
-.fa-layer-group,
-.fa-users{
-    font-size: 14rem;
-}
+ .fa-tree{
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    object-fit: cover;
+
+ }
+
+  
 
 #card-2{
     background: #76b852; 
@@ -437,6 +439,7 @@ color: #fff;
 
     .main__content h2{
         font-size: 2rem;
+        margin: center;
     }
     .main__content p {
         margin-top: 2rem;
@@ -453,7 +456,7 @@ color: #fff;
     background-color: #9ACA9D;
     color: #047835 ;
     cursor: pointer;
-    padding: 18px;
+    padding: 20px;
     width: 100%;
     border: none;
     text-align: center;
@@ -470,4 +473,24 @@ color: #fff;
     display: none;
     overflow: hidden;
     background-color: #ACDAAF;
+  }
+
+  /* flower gif*/
+  .flower__section h2{
+    margin:auto;
+    text-align:center;
+    font-size:2rem;
+    color:#8DC26F;
+    background: #E1F4E3 ;
+    display: FLEX;
+   }
+  
+   .center{
+    padding: 2%;
+    display:FLEX;
+    place-items: center;
+    border: 4px solid #1B5908;
+    border-radius: 10px;
+
+
   }
