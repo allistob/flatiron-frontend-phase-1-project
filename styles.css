@@ -475,22 +475,40 @@ color: #fff;
     background-color: #ACDAAF;
   }
 
-  /* flower gif*/
-  .flower__section h2{
-    margin:auto;
-    text-align:center;
+  
+  .info__section h2{
+    display: FLEX;
+    align-items: center;
+    justify-content:center;
     font-size:2rem;
     color:#8DC26F;
-    background: #E1F4E3 ;
-    display: FLEX;
-   }
-  
-   .center{
-    padding: 2%;
-    display:FLEX;
-    place-items: center;
+    background: #ACDAAF;
+      }
+
+  /* flower gif*/
+   .center__flower{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
     border: 4px solid #1B5908;
     border-radius: 10px;
-
-
   }
+/*succulent gif*/
+  .center__succ{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 4px solid #1B5908;
+    border-radius: 10px;
+  }
+/*variegated plants*/
+  .center__varg{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    border: 4px solid #1B5908;
+    border-radius: 10px;
+}
