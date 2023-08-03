@@ -368,6 +368,7 @@ color: #fff;
  .fa-tree{
     color:#fff;
     display:flex;
+    align-items: center;
     justify-content: center;
     object-fit: cover;
 
