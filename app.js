@@ -1,3 +1,5 @@
+
+
 const menu = document.querySelector('#mobile-menu')
 const menuLinks = document.querySelector('.navbar__menu')
 
@@ -24,3 +26,5 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
