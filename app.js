@@ -27,4 +27,29 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+/*const plantSelect = document.querySelector() {
+  //function call
 
+  getFamilies(){
+    fetch("https://house-plants.p.rapidapi.com/category/Plants")
+    .then(r => r.json())
+  }
+}
+
+
+const url = 'https://house-plants.p.rapidapi.com/category/Plants';
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '40310442a5msh53ddafca7eb6fa8p1dac00jsn6998af258775',
+		'X-RapidAPI-Host': 'house-plants.p.rapidapi.com'
+	}
+};
+
+try {
+	const response = await fetch(url, options);
+	const result = await response.text();
+	console.log(result);
+} catch (error) {
+	console.error(error);
+}*/
