@@ -24,9 +24,7 @@ Join our growing community of plant enthusiasts by following us on social media 
 Connect with True Green
 Stay connected with the latest plant updates, care tips, and more by following us on social media:
 
-Facebook: @TrueGreenOfficial
-Instagram: @truegreen_plants
-Twitter: @TrueGreenTweets
+
 Contact Us
 For inquiries, suggestions, or assistance, please feel free to contact our support team at info@truegreen.com. We're here to help you on your journey to becoming a true plant connoisseur.
 
