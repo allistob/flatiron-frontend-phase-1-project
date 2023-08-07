@@ -1,55 +1,72 @@
+/*document.addEventListener('DOMContentLoaded', () => {
+  const plantFamiliesDropdown = document.querySelector('#plant-families');
 
+  // Function to fetch plant families and populate dropdown
+  const populatePlantFamiliesDropdown = () => {
+    fetch('https://trefle.io/api/v1/families?token=0Ahx7SHM-ALOCG5yTjHXEJRWGJxmkkl0l-QYkR-B6yM')
+      .then((response) => response.json())
+      .then((data) => {
+        data.forEach((family) => {
+          const option = document.createElement('option');
+          option.value = family.id;
+          option.textContent = family.name;
+          plantFamiliesDropdown.appendChild(option);
+        });
+      })
+      .catch((error) => {
+        console.error('Error fetching plant families:', error);
+      });
+  };
 
-const menu = document.querySelector('#mobile-menu')
-const menuLinks = document.querySelector('.navbar__menu')
+  // Populate plant families dropdown initially
+  populatePlantFamiliesDropdown();
 
-//display mobile menu
+  // Search functionality
+  const searchInput = document.querySelector('#search-input');
+  searchInput.addEventListener('input', () => {
+    const searchTerm = searchInput.value.toLowerCase();
+    plantFamiliesDropdown.innerHTML = ''; // Clear dropdown content
 
-const mobileMenu = () => {
+    if (searchTerm.trim() === '') {
+      populatePlantFamiliesDropdown(); // Populate with all plant families
+    } else {
+      fetch(`https://trefle.io/api/v1/families/search?token=YOUR_API_TOKEN&name=${encodeURIComponent(searchTerm)}`)
+        .then((response) => response.json())
+        .then((data) => {
+          data.forEach((family) => {
+            const option = document.createElement('option');
+            option.value = family.id;
+            option.textContent = family.name;
+            plantFamiliesDropdown.appendChild(option);
+          });
+        })
+        .catch((error) => {
+          console.error('Error searching plant families:', error);
+        });
+    }
+  });*/
+
+  const menu = document.querySelector('#mobile-menu');
+  const menuLinks = document.querySelector('.navbar__menu');
+
+  // Display mobile menu
+  const mobileMenu = () => {
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active');
-}
+  };
 
-menu.addEventListener('click', mobileMenu);
+  menu.addEventListener('click', mobileMenu);
 
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-
-/*const plantSelect = document.querySelector() {
-  //function call
-
-  getFamilies(){
-    fetch("https://house-plants.p.rapidapi.com/category/Plants")
-    .then(r => r.json())
+  const coll = document.getElementsByClassName("collapsible");
+  for (let i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      const content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
   }
-}
-
-
-const url = 'https://house-plants.p.rapidapi.com/category/Plants';
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '40310442a5msh53ddafca7eb6fa8p1dac00jsn6998af258775',
-		'X-RapidAPI-Host': 'house-plants.p.rapidapi.com'
-	}
-};
-
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
-}*/
+});
