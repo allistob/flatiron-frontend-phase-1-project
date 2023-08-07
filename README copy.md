@@ -1,5 +1,6 @@
 True Green - Your Ultimate Plant Information Hub
 
+
 Welcome to True Green, the premier online destination for plant enthusiasts and nature lovers! Here at True Green, we are dedicated to providing you with comprehensive and reliable information about a wide variety of plant species. Whether you're an experienced gardener or a curious beginner, our platform is designed to cater to your plant knowledge needs.
 
 About True Green
