@@ -13,18 +13,11 @@ Plant Encyclopedia: Explore our extensive plant encyclopedia, which houses detai
 Comprehensive Data:
  Our dedicated team of botanists and experts curates information from reliable sources to ensure that you receive accurate and up-to-date details about each plant species.
 
-Search and Discover: Use our intuitive search functionality to quickly find information  indoor plants or succulents, True Green has you covered.
-
-Plant Care Guides: Dive into our plant care guides, which provide insights into nurturing and maintaining different plant species. Learn about light requirements, watering schedules, soil types, and other crucial care tips.
-
-Visual Galleries: 
-Immerse yourself in the beauty of the plant world through our high-quality image galleries. Visualize the diversity of plants and gain inspiration for your own green spaces.
-
 User-Friendly Interface: Our user-friendly interface ensures a seamless browsing experience. Whether you're accessing True Green on a desktop computer or a mobile device, you'll have easy access to the information you need.
 
 Getting Started
-Visit our website at www.truegreen.com.
-Navigate through our plant encyclopedia to explore different plant species.
+Visit our website at http://127.0.0.1:5500/
+Navigate through our plant selection to explore different plant species.
 Dive into the plant care guides to learn how to care for your favorite plants effectively.
 Use the search feature to find specific plants or categories that interest you.
 Join our growing community of plant enthusiasts by following us on social media and engaging in discussions.
