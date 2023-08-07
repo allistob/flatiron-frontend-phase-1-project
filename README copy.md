@@ -12,6 +12,7 @@ Key Features
 Plant Encyclopedia: Explore our extensive plant encyclopedia, which houses detailed profiles of numerous plant species. Each profile includes essential information such as botanical names, common names, origins, growth characteristics, and more.
 
 Comprehensive Data:
+
  Our dedicated team of botanists and experts curates information from reliable sources to ensure that you receive accurate and up-to-date details about each plant species.
 
 User-Friendly Interface: Our user-friendly interface ensures a seamless browsing experience. Whether you're accessing True Green on a desktop computer or a mobile device, you'll have easy access to the information you need.
