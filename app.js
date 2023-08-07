@@ -1,4 +1,5 @@
-/*document.addEventListener('DOMContentLoaded', () => {
+/* Attempted API 
+document.addEventListener('DOMContentLoaded', () => {
   const plantFamiliesDropdown = document.querySelector('#plant-families');
 
   // Function to fetch plant families and populate dropdown
@@ -58,7 +59,7 @@
 
   menu.addEventListener('click', mobileMenu);
 
-  
+
   const coll = document.getElementsByClassName("collapsible");
   for (let i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
