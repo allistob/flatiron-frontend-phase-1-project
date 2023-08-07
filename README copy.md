@@ -16,7 +16,7 @@ Comprehensive Data:
 User-Friendly Interface: Our user-friendly interface ensures a seamless browsing experience. Whether you're accessing True Green on a desktop computer or a mobile device, you'll have easy access to the information you need.
 
 Getting Started
-Visit our website at http://127.0.0.1:5500/
+Visit our website at http://127.0.0.1:5500/   
 Navigate through our plant selection to explore different plant species.
 Dive into the plant care guides to learn how to care for your favorite plants effectively.
 Use the search feature to find specific plants or categories that interest you.
